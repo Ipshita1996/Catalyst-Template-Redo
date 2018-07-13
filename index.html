@@ -28,16 +28,16 @@
             <nav class="navigation">
                 <ul>
                     <li>
-                        <a>About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a>services</a>
+                        <a href="#services">services</a>
                     </li>
                     <li>
-                        <a>pricing</a>
+                        <a href="#pricing">pricing</a>
                     </li>
                     <li>
-                        <a>contact</a>
+                        <a href="#contact">contact</a>
                     </li>
                 </ul>
             </nav>
@@ -49,7 +49,7 @@
         </div>
     </header>
     <main>
-        <section class="about">
+        <section class="about" id="about">
             <h2>About Us</h2>
             <br>
             <div class="about-wrapper">
@@ -79,7 +79,7 @@
                 </div>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
             <h2>Our Services</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, nulla.</p>
             <div class="services-content">
@@ -105,7 +105,7 @@
                 </div>
             </div>
         </section>
-        <section class="pricing">
+        <section class="pricing" id="pricing">
             <h2>Pricing</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, voluptas!</p>
             <div class="pricing-content">
@@ -143,12 +143,30 @@
         </section>
     </main>
     <footer>
-        <div class="contact">
+        <div class="contact" id="contact">
             <h2>Conatct us</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quos.</p>
         </div>
-        <div>icons</div>
-        <div>&copy; Copyright. All rights reserved</div>
+        <div class="contact-form">
+            <form>
+                <div>
+                    <input type="text" placeholder="Name" id="name"/>
+                    <input type="email" placeholder="Email" id="email"/>
+                    <br>
+                    <textarea rows="4" cols="47" placeholder="message"></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="send message" />
+                </div>
+            </form>
+        </div>
+        <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+        <div class="copyright">&copy; Copyright. All rights reserved</div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="scripts/main.js"></script>
